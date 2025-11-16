@@ -45,33 +45,39 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 
 ## BLOCK DIAGRAM
 
-*(Insert block diagram here)*
+<img width="725" height="429" alt="image" src="https://github.com/user-attachments/assets/6d1e6dbd-442d-4b1d-a0b7-737a7567f7c9" />
 
 ---
 
 
-## CONNECTION DIAGRAM  
-**Setting up a Digital Link**
 
-*(Insert connection diagram here)*
-
----
 
 ## TABULATION  
 **Transmission through Digital Link**
 
 | Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain in dB |
 |----------------|------------------------------|--------------|------------|
-|                |                              |              |            |
+| 800Hz	        |2.5V                          |	0.5	      |-6.02       |
+|1KHz	           |32V	                        |6.4	         |16.12       |
+|2Khz	           |34V	                        |6.8	         |16.6        |
+|5KHz	           |36V	                        |7.2	         |17.14       |
+|10KHz	        |37V	                        |7.4	         |17.38       |
+|20KHz	        |37V	                        |7.4           |	17.38     |
+|50KHz	        |37V	                         |7.4          |	17.38     |
+|100KHz	|27V	|5.4	|14.64|
+|250KHz	|12.7V	|2.54	|8.09|
 
 ---
 
 ## MODEL GRAPH
 
-*(Insert model graph here)*
+<img width="805" height="386" alt="image" src="https://github.com/user-attachments/assets/de990a88-60b9-4530-952f-b25e4cbb9830" />
+
+## GRAPH
+<img width="1494" height="1173" alt="image" src="https://github.com/user-attachments/assets/efd334de-4392-4b54-a52f-8800282ff18b" />
+
 
 ---
 
 ## RESULT
-
-*(Summarize observations and conclusions here)*
+Thus, the frequency response of the digital fiber optic link was successfully verified. The measured bandwidth of the digital fiber optic link is approximately 100 kHz, confirming the expected performance characteristics of digital optical transmission.
